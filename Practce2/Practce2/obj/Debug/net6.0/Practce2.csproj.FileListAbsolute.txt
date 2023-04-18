@@ -1,0 +1,15 @@
+F:\Training_C#\Cybercom creation\Practce2\Practce2\bin\Debug\net6.0\Practce2.exe
+F:\Training_C#\Cybercom creation\Practce2\Practce2\bin\Debug\net6.0\Practce2.deps.json
+F:\Training_C#\Cybercom creation\Practce2\Practce2\bin\Debug\net6.0\Practce2.runtimeconfig.json
+F:\Training_C#\Cybercom creation\Practce2\Practce2\bin\Debug\net6.0\Practce2.dll
+F:\Training_C#\Cybercom creation\Practce2\Practce2\bin\Debug\net6.0\Practce2.pdb
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.AssemblyInfoInputs.cache
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.AssemblyInfo.cs
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.dll
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\refint\Practce2.dll
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.pdb
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\Practce2.genruntimeconfig.cache
+F:\Training_C#\Cybercom creation\Practce2\Practce2\obj\Debug\net6.0\ref\Practce2.dll

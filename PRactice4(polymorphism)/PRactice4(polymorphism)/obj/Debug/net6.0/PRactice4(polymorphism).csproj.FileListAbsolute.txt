@@ -1,0 +1,15 @@
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).GeneratedMSBuildEditorConfig.editorconfig
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).AssemblyInfoInputs.cache
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).AssemblyInfo.cs
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\bin\Debug\net6.0\PRactice4(polymorphism).exe
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\bin\Debug\net6.0\PRactice4(polymorphism).deps.json
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\bin\Debug\net6.0\PRactice4(polymorphism).runtimeconfig.json
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\bin\Debug\net6.0\PRactice4(polymorphism).dll
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\bin\Debug\net6.0\PRactice4(polymorphism).pdb
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).dll
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\refint\PRactice4(polymorphism).dll
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).pdb
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\PRactice4(polymorphism).genruntimeconfig.cache
+F:\Training_C#\Cybercom creation\PRactice4(polymorphism)\PRactice4(polymorphism)\obj\Debug\net6.0\ref\PRactice4(polymorphism).dll

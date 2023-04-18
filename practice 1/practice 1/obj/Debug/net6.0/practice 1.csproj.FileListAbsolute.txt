@@ -1,0 +1,15 @@
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.AssemblyInfoInputs.cache
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.AssemblyInfo.cs
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\practice 1\practice 1\bin\Debug\net6.0\practice 1.exe
+F:\Training_C#\Cybercom creation\practice 1\practice 1\bin\Debug\net6.0\practice 1.deps.json
+F:\Training_C#\Cybercom creation\practice 1\practice 1\bin\Debug\net6.0\practice 1.runtimeconfig.json
+F:\Training_C#\Cybercom creation\practice 1\practice 1\bin\Debug\net6.0\practice 1.dll
+F:\Training_C#\Cybercom creation\practice 1\practice 1\bin\Debug\net6.0\practice 1.pdb
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.dll
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\refint\practice 1.dll
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.pdb
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\practice 1.genruntimeconfig.cache
+F:\Training_C#\Cybercom creation\practice 1\practice 1\obj\Debug\net6.0\ref\practice 1.dll

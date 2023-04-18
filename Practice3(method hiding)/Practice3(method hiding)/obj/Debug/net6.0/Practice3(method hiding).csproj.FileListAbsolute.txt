@@ -1,0 +1,15 @@
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\bin\Debug\net6.0\Practice3(method hiding).exe
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\bin\Debug\net6.0\Practice3(method hiding).deps.json
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\bin\Debug\net6.0\Practice3(method hiding).runtimeconfig.json
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\bin\Debug\net6.0\Practice3(method hiding).dll
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\bin\Debug\net6.0\Practice3(method hiding).pdb
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).GeneratedMSBuildEditorConfig.editorconfig
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).AssemblyInfoInputs.cache
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).AssemblyInfo.cs
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).dll
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\refint\Practice3(method hiding).dll
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).pdb
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\Practice3(method hiding).genruntimeconfig.cache
+F:\Training_C#\Cybercom creation\Practice3(method hiding)\Practice3(method hiding)\obj\Debug\net6.0\ref\Practice3(method hiding).dll
