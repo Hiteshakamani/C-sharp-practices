@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\bin\Debug\Multiple inheritance(interface).exe.config
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\bin\Debug\Multiple inheritance(interface).exe
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\bin\Debug\Multiple inheritance(interface).pdb
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\obj\Debug\Multiple inheritance(interface).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\obj\Debug\Multiple inheritance(interface).csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\obj\Debug\Multiple inheritance(interface).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\obj\Debug\Multiple inheritance(interface).exe
+F:\Training_C#\Cybercom creation\C# practices\Multiple inheritance(interface)\obj\Debug\Multiple inheritance(interface).pdb
