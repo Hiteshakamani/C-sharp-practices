@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Interface\bin\Debug\Interface.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Interface\bin\Debug\Interface.exe
+F:\Training_C#\Cybercom creation\C# practices\Interface\bin\Debug\Interface.pdb
+F:\Training_C#\Cybercom creation\C# practices\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Interface\obj\Debug\Interface.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Interface\obj\Debug\Interface.exe
+F:\Training_C#\Cybercom creation\C# practices\Interface\obj\Debug\Interface.pdb
