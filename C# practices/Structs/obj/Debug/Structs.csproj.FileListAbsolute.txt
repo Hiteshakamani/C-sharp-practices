@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Structs\bin\Debug\Structs.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Structs\bin\Debug\Structs.exe
+F:\Training_C#\Cybercom creation\C# practices\Structs\bin\Debug\Structs.pdb
+F:\Training_C#\Cybercom creation\C# practices\Structs\obj\Debug\Structs.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Structs\obj\Debug\Structs.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Structs\obj\Debug\Structs.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Structs\obj\Debug\Structs.exe
+F:\Training_C#\Cybercom creation\C# practices\Structs\obj\Debug\Structs.pdb
