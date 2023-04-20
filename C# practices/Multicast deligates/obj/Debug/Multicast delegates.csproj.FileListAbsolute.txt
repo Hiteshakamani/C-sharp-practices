@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\bin\Debug\Multicast deligates.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\bin\Debug\Multicast deligates.exe
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\bin\Debug\Multicast deligates.pdb
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\obj\Debug\Multicast delegates.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\obj\Debug\Multicast delegates.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\obj\Debug\Multicast delegates.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\obj\Debug\Multicast deligates.exe
+F:\Training_C#\Cybercom creation\C# practices\Multicast deligates\obj\Debug\Multicast deligates.pdb
