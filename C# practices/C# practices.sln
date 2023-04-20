@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DElegates", "DElegates\DEle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicast delegates", "Multicast deligates\Multicast delegates.csproj", "{04EBDD54-A6BD-46BD-9DC6-F4025FC993B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exeption Handling", "Exeption Handling\Exeption Handling.csproj", "{4AD632AF-6A43-42DC-B8C6-097B27D2B265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{04EBDD54-A6BD-46BD-9DC6-F4025FC993B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04EBDD54-A6BD-46BD-9DC6-F4025FC993B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04EBDD54-A6BD-46BD-9DC6-F4025FC993B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD632AF-6A43-42DC-B8C6-097B27D2B265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD632AF-6A43-42DC-B8C6-097B27D2B265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD632AF-6A43-42DC-B8C6-097B27D2B265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD632AF-6A43-42DC-B8C6-097B27D2B265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

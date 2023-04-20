@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\bin\Debug\Exeption Handling.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\bin\Debug\Exeption Handling.exe
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\bin\Debug\Exeption Handling.pdb
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\obj\Debug\Exeption Handling.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\obj\Debug\Exeption Handling.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\obj\Debug\Exeption Handling.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\obj\Debug\Exeption Handling.exe
+F:\Training_C#\Cybercom creation\C# practices\Exeption Handling\obj\Debug\Exeption Handling.pdb
