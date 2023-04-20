@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\bin\Debug\Abstraction.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\bin\Debug\Abstraction.exe
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\bin\Debug\Abstraction.pdb
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\obj\Debug\Abstraction.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\obj\Debug\Abstraction.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\obj\Debug\Abstraction.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\obj\Debug\Abstraction.exe
+F:\Training_C#\Cybercom creation\C# practices\Abstraction\obj\Debug\Abstraction.pdb

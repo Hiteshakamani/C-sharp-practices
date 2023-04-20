@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\DElegates\bin\Debug\DElegates.exe.config
+F:\Training_C#\Cybercom creation\C# practices\DElegates\bin\Debug\DElegates.exe
+F:\Training_C#\Cybercom creation\C# practices\DElegates\bin\Debug\DElegates.pdb
+F:\Training_C#\Cybercom creation\C# practices\DElegates\obj\Debug\DElegates.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\DElegates\obj\Debug\DElegates.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\DElegates\obj\Debug\DElegates.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\DElegates\obj\Debug\DElegates.exe
+F:\Training_C#\Cybercom creation\C# practices\DElegates\obj\Debug\DElegates.pdb
