@@ -7,21 +7,25 @@ using System.Threading.Tasks;
 
 namespace Late_binding
 {
+    public class Person
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
 
-            Type classType = assembly.GetType("Late_binding.Person");
+            Type personType = assembly.GetType("Late_binding.Person");
 
-            object obj = Activator.CreateInstance(classType);
+            object obj = Activator.CreateInstance(personType);
 
-            MethodInfo method = classType.GetMethod("MyMethod");
-            object[] parameters = new object[] { "John" };
+            MethodInfo method = personType.GetMethod("Details");
+            object[] parameters = new object[] { "Abc" };
             method.Invoke(obj, parameters);
 
-            PropertyInfo property = classType.GetProperty("MyProperty");
+            PropertyInfo property = personType.GetProperty("MyProperty");
             object value = property.GetValue(obj);
             Console.WriteLine("MyProperty = " + value);
 

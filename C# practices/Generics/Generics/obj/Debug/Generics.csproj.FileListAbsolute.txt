@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\obj\Debug\Generics.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\obj\Debug\Generics.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\bin\Debug\Generics.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\bin\Debug\Generics.exe
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\bin\Debug\Generics.pdb
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\obj\Debug\Generics.exe
+F:\Training_C#\Cybercom creation\C# practices\Generics\Generics\obj\Debug\Generics.pdb

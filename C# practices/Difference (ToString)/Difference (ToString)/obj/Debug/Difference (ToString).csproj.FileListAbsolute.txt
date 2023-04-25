@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\bin\Debug\Difference (ToString).exe.config
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\bin\Debug\Difference (ToString).exe
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\bin\Debug\Difference (ToString).pdb
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\obj\Debug\Difference (ToString).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\obj\Debug\Difference (ToString).csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\obj\Debug\Difference (ToString).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\obj\Debug\Difference (ToString).exe
+F:\Training_C#\Cybercom creation\C# practices\Difference (ToString)\Difference (ToString)\obj\Debug\Difference (ToString).pdb

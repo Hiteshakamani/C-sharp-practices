@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\bin\Debug\Difference(Stringbuilder).exe.config
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\bin\Debug\Difference(Stringbuilder).exe
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\bin\Debug\Difference(Stringbuilder).pdb
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\obj\Debug\Difference(Stringbuilder).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\obj\Debug\Difference(Stringbuilder).csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\obj\Debug\Difference(Stringbuilder).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\obj\Debug\Difference(Stringbuilder).exe
+F:\Training_C#\Cybercom creation\C# practices\Difference(Stringbuilder)\Difference(Stringbuilder)\obj\Debug\Difference(Stringbuilder).pdb
