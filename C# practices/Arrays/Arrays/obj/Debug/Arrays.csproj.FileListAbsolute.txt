@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\bin\Debug\Arrays.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\bin\Debug\Arrays.exe
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\bin\Debug\Arrays.pdb
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\obj\Debug\Arrays.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\obj\Debug\Arrays.exe
+F:\Training_C#\Cybercom creation\C# practices\Arrays\Arrays\obj\Debug\Arrays.pdb
