@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\obj\Debug\Idexer.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\obj\Debug\Idexer.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\obj\Debug\Idexer.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\bin\Debug\Idexer.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\bin\Debug\Idexer.exe
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\bin\Debug\Idexer.pdb
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\obj\Debug\Idexer.exe
+F:\Training_C#\Cybercom creation\C# practices\Idexer\Idexer\obj\Debug\Idexer.pdb

@@ -1,0 +1,3 @@
+F:\Training_C#\Cybercom creation\C# practices\partialclass\partialclass\obj\Debug\partialclass.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\partialclass\partialclass\obj\Debug\partialclass.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\partialclass\partialclass\obj\Debug\partialclass.csproj.CoreCompileInputs.cache
