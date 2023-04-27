@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Abstraction"
+    "\\Lists",
+    "\\Lists\\Lists"
   ],
-  "SelectedNode": "\\Reflection",
+  "SelectedNode": "\\Lists\\Lists\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

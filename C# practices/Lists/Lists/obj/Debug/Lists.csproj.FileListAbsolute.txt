@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\bin\Debug\Lists.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\bin\Debug\Lists.exe
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\bin\Debug\Lists.pdb
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\obj\Debug\Lists.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\obj\Debug\Lists.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\obj\Debug\Lists.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\obj\Debug\Lists.exe
+F:\Training_C#\Cybercom creation\C# practices\Lists\Lists\obj\Debug\Lists.pdb

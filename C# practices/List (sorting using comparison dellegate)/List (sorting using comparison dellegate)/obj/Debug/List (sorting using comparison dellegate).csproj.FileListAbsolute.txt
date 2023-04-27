@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\bin\Debug\List (sorting using comparison dellegate).exe.config
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\bin\Debug\List (sorting using comparison dellegate).exe
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\bin\Debug\List (sorting using comparison dellegate).pdb
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\obj\Debug\List (sorting using comparison dellegate).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\obj\Debug\List (sorting using comparison dellegate).csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\obj\Debug\List (sorting using comparison dellegate).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\obj\Debug\List (sorting using comparison dellegate).exe
+F:\Training_C#\Cybercom creation\C# practices\List (sorting using comparison dellegate)\List (sorting using comparison dellegate)\obj\Debug\List (sorting using comparison dellegate).pdb

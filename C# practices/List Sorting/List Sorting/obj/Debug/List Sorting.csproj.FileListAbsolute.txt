@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\bin\Debug\List Sorting.exe.config
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\bin\Debug\List Sorting.exe
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\bin\Debug\List Sorting.pdb
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\obj\Debug\List Sorting.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\obj\Debug\List Sorting.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\obj\Debug\List Sorting.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\obj\Debug\List Sorting.exe
+F:\Training_C#\Cybercom creation\C# practices\List Sorting\List Sorting\obj\Debug\List Sorting.pdb

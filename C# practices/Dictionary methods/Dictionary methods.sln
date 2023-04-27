@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary methods", "Dictionary methods\Dictionary methods.csproj", "{CF8B4AA6-9A09-4561-9077-3E316845165A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8B4AA6-9A09-4561-9077-3E316845165A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8B4AA6-9A09-4561-9077-3E316845165A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8B4AA6-9A09-4561-9077-3E316845165A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8B4AA6-9A09-4561-9077-3E316845165A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E208A1-E70B-40FF-9441-4C550E2AF12E}
+	EndGlobalSection
+EndGlobal
