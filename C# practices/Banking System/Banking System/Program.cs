@@ -1,24 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Banking_System
-{    
-    
+{
+
     //Account class
     public class Account
     {
         public string Name { get; set; }
         public int Account_number { get; set; }
         public decimal Balance { get; set; }
+        public List<string> Transaction_history {get; set;}
 
         public Account(string name ,int account_number, decimal balance)
         {
             Name = name;
             Account_number = account_number;
             Balance = balance;
+            Transaction_history = new List<string>();
+            
         }
     }
 
@@ -31,7 +35,7 @@ namespace Banking_System
         public Bank(List<Account> accounts, string name)
         {
             this.accounts = accounts;
-            Name = name;
+            Name = name;  
         }
         // For creating an account
         public void create_account(string name , decimal balnce)
@@ -48,6 +52,7 @@ namespace Banking_System
             if(account != null)
             {
                 account.Balance += money;
+                account.Transaction_history.Add($"Deposited {money} on {DateTime.Now}")
             }
         }
 
@@ -60,6 +65,7 @@ namespace Banking_System
                 if(account.Balance > money) 
                 {
                     account.Balance -= money;
+                    account.Transaction_history.Add($"Withdrawn {money} on {DateTime.Now}");
                     return true;
                 }
             }
@@ -75,6 +81,16 @@ namespace Banking_System
                 return account.Balance;
             }
             return -1 ;
+        }
+
+        public List<string> Transaction_history(int account_number)
+        {
+            Account account = accounts.Find(a=>a.Account_number == account_number);
+            if(account != null )
+            {
+                return account.Transaction_history;
+            }
+            return null;
         }
 
     }
@@ -95,7 +111,8 @@ namespace Banking_System
                 Console.WriteLine("2. Deposit money ");
                 Console.WriteLine("3. Withdraw money ");
                 Console.WriteLine("4. Check balance ");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("5. View transaction history ");
+                Console.WriteLine("6. Exit");
 
                 int choice;
                 if (int.TryParse(Console.ReadLine(), out choice))
@@ -188,7 +205,31 @@ namespace Banking_System
                                  Console.WriteLine("Invalid input.");
                              }
                     break;
-                        case 5:
+                            case 5:
+                            Console.WriteLine("Enter account number : ");
+                            if (int.TryParse(Console.ReadLine(),out account_number))
+                            {
+                                List<string> transaction_History = bank.Transaction_history(account_number);
+                                if(transaction_History != null)
+                                {
+                                    Console.WriteLine($"Transaction history of account number {account_number} :");
+                                    foreach (string transaction in transaction_History)
+                                    {
+                                        Console.WriteLine(transaction);
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Account not found...!")
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid input.");
+                            }
+                            
+                            break;
+                        case 6:
                             Console.WriteLine("Thanks....😊");
                             
                             break;
