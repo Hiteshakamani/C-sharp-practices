@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\obj\Debug\Banking System.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\obj\Debug\Banking System.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\obj\Debug\Banking System.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\bin\Debug\Banking System.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\bin\Debug\Banking System.exe
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\bin\Debug\Banking System.pdb
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\obj\Debug\Banking System.exe
+F:\Training_C#\Cybercom creation\C# practices\Banking System\Banking System\obj\Debug\Banking System.pdb

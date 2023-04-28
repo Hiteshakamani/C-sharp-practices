@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\bin\Debug\MultyThreading.exe.config
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\bin\Debug\MultyThreading.exe
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\bin\Debug\MultyThreading.pdb
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\obj\Debug\MultiThreading.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\obj\Debug\MultiThreading.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\obj\Debug\MultiThreading.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\obj\Debug\MultyThreading.exe
+F:\Training_C#\Cybercom creation\C# practices\MultyThreading\MultyThreading\obj\Debug\MultyThreading.pdb
