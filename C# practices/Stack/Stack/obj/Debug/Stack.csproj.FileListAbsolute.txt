@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\bin\Debug\Stack.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\bin\Debug\Stack.exe
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\bin\Debug\Stack.pdb
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\obj\Debug\Stack.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\obj\Debug\Stack.exe
+F:\Training_C#\Cybercom creation\C# practices\Stack\Stack\obj\Debug\Stack.pdb

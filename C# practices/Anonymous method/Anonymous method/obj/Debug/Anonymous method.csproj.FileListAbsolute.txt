@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\obj\Debug\Anonymous method.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\obj\Debug\Anonymous method.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\obj\Debug\Anonymous method.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\bin\Debug\Anonymous method.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\bin\Debug\Anonymous method.exe
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\bin\Debug\Anonymous method.pdb
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\obj\Debug\Anonymous method.exe
+F:\Training_C#\Cybercom creation\C# practices\Anonymous method\Anonymous method\obj\Debug\Anonymous method.pdb

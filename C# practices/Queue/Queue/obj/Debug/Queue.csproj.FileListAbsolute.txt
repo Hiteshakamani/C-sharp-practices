@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\bin\Debug\Queue.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\bin\Debug\Queue.exe
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\bin\Debug\Queue.pdb
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\obj\Debug\Queue.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\obj\Debug\Queue.exe
+F:\Training_C#\Cybercom creation\C# practices\Queue\Queue\obj\Debug\Queue.pdb
