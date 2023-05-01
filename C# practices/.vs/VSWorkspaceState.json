@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lists",
+    "\\List sorting 2",
+    "\\List sorting 2\\List (sorting using comparison dellegate)",
     "\\Lists\\Lists"
   ],
-  "SelectedNode": "\\Lists\\Lists\\Program.cs",
+  "SelectedNode": "\\List sorting 2\\List (sorting using comparison dellegate)\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

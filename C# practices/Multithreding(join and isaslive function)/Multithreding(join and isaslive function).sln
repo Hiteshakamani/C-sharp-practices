@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreding(join and isalive function)", "Multithreding(join and isaslive function)\Multithreding(join and isalive function).csproj", "{D0C5D57B-CCC9-4216-9F85-99FFE74F5590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C5D57B-CCC9-4216-9F85-99FFE74F5590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C5D57B-CCC9-4216-9F85-99FFE74F5590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C5D57B-CCC9-4216-9F85-99FFE74F5590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C5D57B-CCC9-4216-9F85-99FFE74F5590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF109DD4-42F2-457C-9B1A-6053F4A2DA1D}
+	EndGlobalSection
+EndGlobal

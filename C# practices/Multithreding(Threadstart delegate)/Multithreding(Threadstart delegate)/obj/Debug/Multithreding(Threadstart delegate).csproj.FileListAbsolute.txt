@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\bin\Debug\Multithreding(Threadstart delegate).exe.config
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\bin\Debug\Multithreding(Threadstart delegate).exe
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\bin\Debug\Multithreding(Threadstart delegate).pdb
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\obj\Debug\Multithreding(Threadstart delegate).csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\obj\Debug\Multithreding(Threadstart delegate).csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\obj\Debug\Multithreding(Threadstart delegate).csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\obj\Debug\Multithreding(Threadstart delegate).exe
+F:\Training_C#\Cybercom creation\C# practices\Multithreding(Threadstart delegate)\Multithreding(Threadstart delegate)\obj\Debug\Multithreding(Threadstart delegate).pdb

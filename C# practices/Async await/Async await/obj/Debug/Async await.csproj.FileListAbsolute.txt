@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\obj\Debug\Async await.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\obj\Debug\Async await.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\obj\Debug\Async await.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\bin\Debug\Async await.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\bin\Debug\Async await.exe
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\bin\Debug\Async await.pdb
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\obj\Debug\Async await.exe
+F:\Training_C#\Cybercom creation\C# practices\Async await\Async await\obj\Debug\Async await.pdb

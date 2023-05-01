@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\bin\Debug\Deadlock.exe.config
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\bin\Debug\Deadlock.exe
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\bin\Debug\Deadlock.pdb
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\obj\Debug\Deadlock.exe
+F:\Training_C#\Cybercom creation\C# practices\Deadlock\Deadlock\obj\Debug\Deadlock.pdb
