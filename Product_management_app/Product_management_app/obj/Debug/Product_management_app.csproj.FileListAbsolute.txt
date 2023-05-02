@@ -1,0 +1,8 @@
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\bin\Debug\Product_management_app.exe.config
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\bin\Debug\Product_management_app.exe
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\bin\Debug\Product_management_app.pdb
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\obj\Debug\Product_management_app.csproj.AssemblyReference.cache
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\obj\Debug\Product_management_app.csproj.SuggestedBindingRedirects.cache
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\obj\Debug\Product_management_app.csproj.CoreCompileInputs.cache
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\obj\Debug\Product_management_app.exe
+F:\Training_C#\Cybercom creation\Product_management_app\Product_management_app\obj\Debug\Product_management_app.pdb
