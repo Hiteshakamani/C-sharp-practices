@@ -44,14 +44,16 @@ namespace Product_management_app
         {
             if (Category == "Food")
             {
-
+                Console.WriteLine("All Food products are here...");
             }
             else if (Category == "Cloth")
             {
+                Console.WriteLine("All Cloth products are here...");
 
             }
             else if (Category == "Other")
             {
+                Console.WriteLine("All Other products are here...");
 
             }
             else
