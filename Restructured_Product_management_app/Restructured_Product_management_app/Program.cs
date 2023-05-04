@@ -200,23 +200,18 @@ namespace Restructured_Product_management_app
                 Quantity = quantity
             };
 
-            return category.IsValid() ? category : throw new ArgumentException("Invalid category");
+            return category.IsValid() ? category : throw new Exception("Invalid category");
         }
-
         public static ClothCategory CreateClothCategory()
         {
             Console.WriteLine("Enter the category name:");
             string name = Console.ReadLine();
-
             Console.WriteLine("Enter the gender/size:");
             string genderSize = Console.ReadLine();
-
             Console.WriteLine("Enter the color:");
             string color = Console.ReadLine();
-
             Console.WriteLine("Enter the material:");
             string material = Console.ReadLine();
-
             var category = new ClothCategory
             {
                 Category = name,
@@ -224,13 +219,11 @@ namespace Restructured_Product_management_app
                 Color = color,
                 Material = material
             };
-
             return category.IsValid() ? category : throw new ArgumentException("Invalid category");
         }
     }
     internal class Program
     {
-
         private static void ListProducts(List<Product> products)
         {
 
@@ -501,12 +494,19 @@ namespace Restructured_Product_management_app
            
             while (true)
             {
-                Console.WriteLine("Select Choice");
-                Console.WriteLine("1. Login");
-                Console.WriteLine("2. Close App");
-                choice = int.Parse(Console.ReadLine());
-               
-                if (choice == 1)
+                try
+                {
+                    Console.WriteLine("Select Choice");
+                    Console.WriteLine("1. Login");
+                    Console.WriteLine("2. Close App");
+                    choice = int.Parse(Console.ReadLine());
+                }
+                catch (FormatException )
+                {
+                    Console.WriteLine("Error: Please enter a valid integer choice.");
+                }
+
+                    if (choice == 1)
                 {
                     Console.WriteLine("\nUsername : ");
                     string input_username = Console.ReadLine();
@@ -536,7 +536,7 @@ namespace Restructured_Product_management_app
                             Console.WriteLine("3. Add new product");
                             Console.WriteLine("4. Update existing product");
                             Console.WriteLine("5. Delete existing product");
-                            Console.WriteLine("6. Exit");
+                            Console.WriteLine("6. Logout");
                             Console.Write("Enter your choice (1-6): ");
                             choice = int.Parse(Console.ReadLine());
 
@@ -549,7 +549,7 @@ namespace Restructured_Product_management_app
 
                                 case 2:
                                     // Filter products by category
-                                    Console.Write("Enter the category to filter. \n1. Food \n2. Cloth \n3. Other): ");
+                                    Console.Write("Enter the category to filter. \n1. Food \n2. Cloth \n3. Other: ");
                                     string category = Console.ReadLine();
                                     ListProducts(productManager.GetProductsByCategory(new ProductCategory { Category = category }));
                                     break;
