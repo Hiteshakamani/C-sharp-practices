@@ -19,24 +19,20 @@ namespace Restructured_Product_management_app
         public string _username;
         private string _password;
         private readonly List<Product> _products;
-
         public Admin(string username, string password)
         {
             _username = username;
             _password = password;
             _products = new List<Product>();
         }
-
         public string GetUsername()
         {
             return _username;
         }
-
         public string GetPassword()
         {
             return _password;
         }
-
         public List<Product> GetProducts()
         {
             return _products;
@@ -48,7 +44,6 @@ namespace Restructured_Product_management_app
         public int Number { get; set; }
         public decimal Price { get; set; }
         public ProductCategory Category { get; set; }
-
         public virtual bool IsValid()
         {
             return !string.IsNullOrWhiteSpace(Name) &&
@@ -263,7 +258,6 @@ namespace Restructured_Product_management_app
 
             Console.WriteLine();
         }
-
         private static Product CreateProduct()
         {
 
@@ -429,11 +423,10 @@ namespace Restructured_Product_management_app
         }
         static void Main(string[] args)
         {
-
             Admin admin = new Admin("Admin", "Admin_23");
             string username = admin.GetUsername();
             string password = admin.GetPassword();
-            var productManager = new ProductManager();
+            ProductManager productManager = new ProductManager();
             bool Logged_in = false;
 
         var apple = new Product
@@ -577,7 +570,6 @@ namespace Restructured_Product_management_app
                                         productManager.UpdateProduct(productNumberToUpdate, updatedProduct);
                                         Console.WriteLine("Product updated successfully!");
                                     }
-
                                     break;
 
                                 case 5:
@@ -598,8 +590,12 @@ namespace Restructured_Product_management_app
                                     break;
 
                                 case 6:
-                                    // Exit the application
+                                    Console.WriteLine("Log out here successfully....");
+                                    Logged_in = false;
                                     break;
+                                default:
+                                    Console.WriteLine("Invalid input for category. Please enter Food, Cloth, or Other.");
+                                    return;
                             }
                         }
                     }
@@ -609,11 +605,13 @@ namespace Restructured_Product_management_app
                     Console.WriteLine("\nEnter you Password : ");
                     string input_password = Console.ReadLine();
 
-                    if (input_password == username)
+                    if (input_password == password)
                     {
                         
                         Console.WriteLine("logged out successfully....!");
                         Console.WriteLine("Bye..!");
+                        Console.ReadKey();
+                        Environment.Exit(0);
 
                     }
                 }
