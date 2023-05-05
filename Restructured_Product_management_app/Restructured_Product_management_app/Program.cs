@@ -10,9 +10,9 @@ namespace Restructured_Product_management_app
 {
     public enum Category
     {
-        Food,
-        Cloth,
-        Other
+        Food = 1,
+        Cloth = 2,
+        Other = 3
     }
     public class Admin
     {
@@ -37,7 +37,7 @@ namespace Restructured_Product_management_app
         {
             return _products;
         }
-    }     
+    }
     public class Product
     {
         public string Name { get; set; }
@@ -58,10 +58,10 @@ namespace Restructured_Product_management_app
         public string Category { get; set; }
         public virtual bool IsValid()
         {
-           return !string.IsNullOrWhiteSpace(Category);
+            return !string.IsNullOrWhiteSpace(Category);
         }
-   }
-    public class FoodCategory :ProductCategory
+    }
+    public class FoodCategory : ProductCategory
     {
         public DateTime ManufactureDate { get; set; }
         public DateTime ExpiryDate { get; set; }
@@ -104,21 +104,33 @@ namespace Restructured_Product_management_app
     }
     public class ProductManager : IProductManager
     {
-        private  List<Product> _products;
+        private List<Product> _products;
 
         public ProductManager()
         {
             _products = new List<Product>();
         }
-       
+
         public void AddProduct(Product product)
         {
-            if (!product.IsValid())
+            while (true)
             {
-                throw new Exception("Invalid product");
-            }
+                try
+                {
+                    if (!product.IsValid())
+                    {
+                        throw new Exception("Invalid product");
+                    }
 
-            _products.Add(product);
+                    _products.Add(product);
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}\nPlease try again.");
+                    break;
+                }
+            }
         }
         public void DeleteProduct(int productNumber)
         {
@@ -160,7 +172,7 @@ namespace Restructured_Product_management_app
             return _products.Where(p => p.Category.GetType() == category.GetType()).ToList();
         }
     }
-    public static class CategoryFactory
+    public static class Categoryfactory
     {
         public static FoodCategory CreateFoodCategory()
         {
@@ -199,13 +211,14 @@ namespace Restructured_Product_management_app
         }
         public static ClothCategory CreateClothCategory()
         {
-            Console.WriteLine("Enter the category name:");
+
+            //Console.WriteLine("Enter the category name:");
             string name = Console.ReadLine();
-            Console.WriteLine("Enter the gender/size:");
+            //Console.WriteLine("Enter the gender/size:");
             string genderSize = Console.ReadLine();
-            Console.WriteLine("Enter the color:");
+            //Console.WriteLine("Enter the color:");
             string color = Console.ReadLine();
-            Console.WriteLine("Enter the material:");
+            //Console.WriteLine("Enter the material:");
             string material = Console.ReadLine();
             var category = new ClothCategory
             {
@@ -323,6 +336,7 @@ namespace Restructured_Product_management_app
                         Console.WriteLine("Invalid input. Please enter a number.");
                     }
 
+
                     category = new FoodCategory
                     {
                         Category = "Food",
@@ -399,11 +413,11 @@ namespace Restructured_Product_management_app
             ProductCategory newCategory;
             if (productToUpdate.Category is FoodCategory)
             {
-                newCategory = CategoryFactory.CreateFoodCategory();
+                newCategory = Categoryfactory.CreateFoodCategory();
             }
             else if (productToUpdate.Category is ClothCategory)
             {
-                newCategory = CategoryFactory.CreateClothCategory();
+                newCategory = Categoryfactory.CreateClothCategory();
             }
             else
             {
@@ -429,7 +443,7 @@ namespace Restructured_Product_management_app
             ProductManager productManager = new ProductManager();
             bool Logged_in = false;
 
-        var apple = new Product
+            var apple = new Product
             {
                 Name = "Apple",
                 Number = 1,
@@ -484,7 +498,7 @@ namespace Restructured_Product_management_app
             // Start the application loop
             Console.WriteLine("Welcome to WeNet Admin Portal");
             int choice = 0;
-           
+
             while (true)
             {
                 try
@@ -494,12 +508,12 @@ namespace Restructured_Product_management_app
                     Console.WriteLine("2. Close App");
                     choice = int.Parse(Console.ReadLine());
                 }
-                catch (FormatException )
+                catch (FormatException)
                 {
                     Console.WriteLine("Error: Please enter a valid integer choice.");
                 }
 
-                    if (choice == 1)
+                if (choice == 1)
                 {
                     Console.WriteLine("\nUsername : ");
                     string input_username = Console.ReadLine();
@@ -517,8 +531,8 @@ namespace Restructured_Product_management_app
                         Console.WriteLine("Invalid username or password...!");
                         Logged_in = false;
                     }
-                
-                if (Logged_in)
+
+                    if (Logged_in)
                     {
                         while (Logged_in)
                         {
@@ -550,9 +564,9 @@ namespace Restructured_Product_management_app
                                 case 3:
                                     // Add new product
                                     Product newProduct = CreateProduct();
-                                    productManager.AddProduct(newProduct);
-                                    Console.WriteLine("Product added successfully!");
-                                    break;
+                                         productManager.AddProduct(newProduct);
+                                        //Console.WriteLine("Product added successfully!");
+                                        break;                                                               
 
                                 case 4:
                                     // Update existing product
@@ -601,13 +615,12 @@ namespace Restructured_Product_management_app
                     }
                 }
                 else if (choice == 2)
-                { 
+                {
                     Console.WriteLine("\nEnter you Password : ");
                     string input_password = Console.ReadLine();
 
                     if (input_password == password)
                     {
-                        
                         Console.WriteLine("logged out successfully....!");
                         Console.WriteLine("Bye..!");
                         Console.ReadKey();
@@ -621,6 +634,6 @@ namespace Restructured_Product_management_app
                 }
 
             }
-        }       
+        }
     }
 }
