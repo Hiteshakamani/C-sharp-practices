@@ -549,6 +549,8 @@ namespace Restructured_Product_management_app
                 catch (FormatException)
                 {
                     Console.WriteLine("Error: Please enter a valid integer choice.");
+                    continue;
+
                 }
 
                 if (choice == 1)
