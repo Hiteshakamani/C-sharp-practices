@@ -33,10 +33,6 @@ namespace Restructured_Product_management_app
         {
             return _password;
         }
-        public List<Product> GetProducts()
-        {
-            return _products;
-        }
     }
     public class Product
     {
@@ -75,14 +71,16 @@ namespace Restructured_Product_management_app
     }
     public class ClothCategory : ProductCategory
     {
-        public string GenderSize { get; set; }
+        public string Gender { get; set; }
+        public string Size { get; set; }
         public string Color { get; set; }
         public string Material { get; set; }
 
         public override bool IsValid()
         {
             return base.IsValid() &&
-                !string.IsNullOrWhiteSpace(GenderSize) &&
+                !string.IsNullOrWhiteSpace(Gender) &&
+                !string.IsNullOrWhiteSpace(Size) &&
                 !string.IsNullOrWhiteSpace(Color) &&
                 !string.IsNullOrWhiteSpace(Material);
         }
@@ -98,7 +96,7 @@ namespace Restructured_Product_management_app
     {
         void AddProduct(Product product);
         void DeleteProduct(int productNumber);
-        void UpdateProduct(int productNumber, Product product);
+        void Find_Product(int productNumber, Product product);
         List<Product> GetAllProducts();
         List<Product> GetProductsByCategory(ProductCategory category);
     }
@@ -143,135 +141,48 @@ namespace Restructured_Product_management_app
 
             _products.Remove(product);
         }
-        public void UpdateProduct(int productNumber, Product product)
+        public static Product UpdateProduct(Product productToUpdate)
         {
-            if (!product.IsValid())
-            {
-                throw new Exception("Invalid product");
-            }
-
-            var existingProduct = _products.FirstOrDefault(p => p.Number == productNumber);
-
-            if (existingProduct == null)
-            {
-                throw new Exception("Product not found");
-            }
-
-            existingProduct.Name = product.Name;
-            existingProduct.Price = product.Price;
-            existingProduct.Category = product.Category;
-        }
-
-        public List<Product> GetAllProducts()
-        {
-            return _products;
-        }
-
-        public List<Product> GetProductsByCategory(ProductCategory category)
-        {
-            return _products.Where(p => p.Category.GetType() == category.GetType()).ToList();
-        }
-    }
-    public static class Categoryfactory
-    {
-        public static FoodCategory CreateFoodCategory()
-        {
-            Console.WriteLine("Enter the category name:");
+            Console.WriteLine("Enter new product name:");
             string name = Console.ReadLine();
-
-            DateTime manufactureDate;
-            Console.WriteLine("Enter the product manufacture date (in yyyy-MM-dd format):");
-            while (!DateTime.TryParse(Console.ReadLine(), out manufactureDate))
+            Console.WriteLine("Enter new product price:");
+            decimal price;
+            while (!decimal.TryParse(Console.ReadLine(), out price) || price <= 0)
             {
-                Console.WriteLine("Invalid date format. Please enter the date in yyyy-MM-dd format:");
-            }
-            DateTime expiryDate;
-            Console.WriteLine("Enter the product expiry date (in yyyy-MM-dd format):");
-            while (!DateTime.TryParse(Console.ReadLine(), out expiryDate))
-            {
-                Console.WriteLine("Invalid date format. Please enter the date in yyyy-MM-dd format:");
+                Console.WriteLine("Invalid input. Please enter a positive decimal number for the price:");
             }
 
-            int quantity;
-            Console.WriteLine("Enter the product quantity:");
-            while (!int.TryParse(Console.ReadLine(), out quantity))
+            // Ask user to choose the category for the updated product
+            Console.WriteLine("Enter the category for the updated product:\n1. Food\n2. Cloth\n3. Other");
+            int categoryChoice = int.Parse(Console.ReadLine());
+            ProductCategory newCategory;
+            switch (categoryChoice)
             {
-                Console.WriteLine("Invalid quantity. Please enter a valid integer:");
+                case 1:
+                    newCategory = Categoryfactory.CreateFoodCategory();
+                    break;
+                case 2:
+                    newCategory = Categoryfactory.CreateClothCategory();
+                    break;
+                case 3:
+                    newCategory = new OtherCategory();
+                    break;
+                default:
+                    throw new Exception("Invalid category choice");
             }
 
-            var category = new FoodCategory
+            // Create a new product object with the updated values
+            Product updatedProduct = new Product
             {
-                Category = name,
-                ManufactureDate = manufactureDate,
-                ExpiryDate = expiryDate,
-                Quantity = quantity
+                Name = name,
+                Number = productToUpdate.Number,
+                Price = price,
+                Category = newCategory
             };
 
-            return category.IsValid() ? category : throw new Exception("Invalid category");
+            return updatedProduct;
         }
-        public static ClothCategory CreateClothCategory()
-        {
-
-            //Console.WriteLine("Enter the category name:");
-            string name = Console.ReadLine();
-            //Console.WriteLine("Enter the gender/size:");
-            string genderSize = Console.ReadLine();
-            //Console.WriteLine("Enter the color:");
-            string color = Console.ReadLine();
-            //Console.WriteLine("Enter the material:");
-            string material = Console.ReadLine();
-            var category = new ClothCategory
-            {
-                Category = name,
-                GenderSize = genderSize,
-                Color = color,
-                Material = material
-            };
-            return category.IsValid() ? category : throw new ArgumentException("Invalid category");
-        }
-    }
-    internal class Program
-    {
-        private static void ListProducts(List<Product> products)
-        {
-
-
-            Console.WriteLine("\nList of Products:");
-            Console.WriteLine("------------------");
-
-            if (products.Count == 0)
-            {
-                Console.WriteLine("No products found.");
-            }
-            else
-            {
-                foreach (var product in products)
-                {
-                    Console.WriteLine($"Name: {product.Name}");
-                    Console.WriteLine($"Number: {product.Number}");
-                    Console.WriteLine($"Price: {product.Price}");
-                    Console.WriteLine($"Category: {product.Category.Category}");
-
-                    if (product.Category is FoodCategory foodCategory)
-                    {
-                        Console.WriteLine($"Manufacture Date: {foodCategory.ManufactureDate:d}");
-                        Console.WriteLine($"Expiry Date: {foodCategory.ExpiryDate:d}");
-                        Console.WriteLine($"Quantity: {foodCategory.Quantity}");
-                    }
-                    else if (product.Category is ClothCategory clothCategory)
-                    {
-                        Console.WriteLine($"Gender/Size: {clothCategory.GenderSize}");
-                        Console.WriteLine($"Color: {clothCategory.Color}");
-                        Console.WriteLine($"Material: {clothCategory.Material}");
-                    }
-
-                    Console.WriteLine("------------------");
-                }
-            }
-
-            Console.WriteLine();
-        }
-        private static Product CreateProduct()
+        public static Product CreateProduct()
         {
 
             string name = "";
@@ -364,8 +275,11 @@ namespace Restructured_Product_management_app
                         Console.WriteLine("Invalid input. Please enter a decimal number.");
                     }
 
-                    Console.WriteLine("Enter the product gender size:");
-                    string genderSize = Console.ReadLine();
+                    Console.WriteLine("Enter the product gender :");
+                    string gender = Console.ReadLine();
+
+                    Console.WriteLine("Enter the product size:");
+                    string size = Console.ReadLine();
 
                     Console.WriteLine("Enter the product color:");
                     string color = Console.ReadLine();
@@ -376,7 +290,8 @@ namespace Restructured_Product_management_app
                     category = new ClothCategory
                     {
                         Category = "Cloth",
-                        GenderSize = genderSize,
+                        Gender = gender,
+                        Size = size,
                         Color = color,
                         Material = material
                     };
@@ -398,43 +313,165 @@ namespace Restructured_Product_management_app
                 Category = category
             };
         }
-        private static Product UpdateProduct(Product productToUpdate)
-        {
-            Console.WriteLine("Enter new product name:");
-            string name = Console.ReadLine();
-            Console.WriteLine("Enter new product price:");
-            decimal price;
-            while (!decimal.TryParse(Console.ReadLine(), out price) || price <= 0)
-            {
-                Console.WriteLine("Invalid input. Please enter a positive decimal number for the price:");
-            }
 
-            // Create a new product category object based on the current product's category type
-            ProductCategory newCategory;
-            if (productToUpdate.Category is FoodCategory)
+        public void Find_Product(int productNumber, Product product)
+        {
+            try
             {
-                newCategory = Categoryfactory.CreateFoodCategory();
+                if (!product.IsValid())
+                {
+                    throw new Exception("Invalid product");
+                }
+
+                var existingProduct = _products.FirstOrDefault(p => p.Number == productNumber);
+
+                if (existingProduct == null)
+                {
+                    throw new Exception("Product not found");
+                }
+
+                existingProduct.Name = product.Name;
+                existingProduct.Price = product.Price;
+                existingProduct.Category = product.Category;
             }
-            else if (productToUpdate.Category is ClothCategory)
+            catch(Exception ex)
             {
-                newCategory = Categoryfactory.CreateClothCategory();
+                Console.WriteLine($"Eroor : {ex.Message}");
+            }
+        }
+
+        public List<Product> GetAllProducts()
+        {
+            return _products;
+        }
+
+        public List<Product> GetProductsByCategory(ProductCategory category)
+        {
+            return _products.Where(p => p.Category.GetType() == category.GetType()).ToList();
+        }
+
+        public static void ListProducts(List<Product> products)
+        {
+
+
+            Console.WriteLine("\nList of Products:");
+            Console.WriteLine("------------------");
+
+            if (products.Count == 0)
+            {
+                Console.WriteLine("No products found.");
             }
             else
             {
-                newCategory = new OtherCategory();
+                foreach (var product in products)
+                {
+                    Console.WriteLine($"Name: {product.Name}");
+                    Console.WriteLine($"Number: {product.Number}");
+                    Console.WriteLine($"Price: {product.Price}");
+                    Console.WriteLine($"Category: {product.Category.Category}");
+
+                    if (product.Category is FoodCategory foodCategory)
+                    {
+                        Console.WriteLine($"Manufacture Date: {foodCategory.ManufactureDate:d}");
+                        Console.WriteLine($"Expiry Date: {foodCategory.ExpiryDate:d}");
+                        Console.WriteLine($"Quantity: {foodCategory.Quantity}");
+                    }
+                    else if (product.Category is ClothCategory clothCategory)
+                    {
+                        Console.WriteLine($"Gender/Size: {clothCategory.Gender}");
+                        Console.WriteLine($"Color: {clothCategory.Color}");
+                        Console.WriteLine($"Material: {clothCategory.Material}");
+                    }
+
+                    Console.WriteLine("------------------");
+                }
             }
 
-            // Create a new product object with the updated values
-            Product updatedProduct = new Product
-            {
-                Name = name,
-                Number = productToUpdate.Number,
-                Price = price,
-                Category = newCategory
-            };
-
-            return updatedProduct;
+            Console.WriteLine();
         }
+    }
+    public static class Categoryfactory
+    {
+        public static FoodCategory CreateFoodCategory()
+        {
+            try
+            {
+                DateTime manufactureDate;
+                Console.WriteLine("Enter the product manufacture date (in yyyy-MM-dd format):");
+                while (!DateTime.TryParse(Console.ReadLine(), out manufactureDate))
+                {
+                    Console.WriteLine("Invalid date format. Please enter the date in yyyy-MM-dd format:");
+                }
+
+                DateTime expiryDate;
+                Console.WriteLine("Enter the product expiry date (in yyyy-MM-dd format):");
+                while (!DateTime.TryParse(Console.ReadLine(), out expiryDate))
+                {
+                    Console.WriteLine("Invalid date format. Please enter the date in yyyy-MM-dd format:");
+                }
+
+                int quantity;
+                Console.WriteLine("Enter the product quantity:");
+                while (!int.TryParse(Console.ReadLine(), out quantity))
+                {
+                    Console.WriteLine("Invalid quantity. Please enter a valid integer:");
+                }
+
+                var category = new FoodCategory
+                {
+                    ManufactureDate = manufactureDate,
+                    ExpiryDate = expiryDate,
+                    Quantity = quantity
+                };
+
+                if (!category.IsValid())
+                {
+                    throw new Exception("Invalid category");
+                }
+
+                return category;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred while creating the food category: " + ex.Message);
+                return null;
+            }
+        }
+
+        public static ClothCategory CreateClothCategory()
+        {
+
+            try
+            {
+                Console.WriteLine("Enter the gender:");
+                string gender = Console.ReadLine();
+                Console.WriteLine("Enter the size:");
+                string size = Console.ReadLine();
+                Console.WriteLine("Enter the color:");
+                string color = Console.ReadLine();
+                Console.WriteLine("Enter the material:");
+                string material = Console.ReadLine();
+                var category = new ClothCategory
+                {
+                    Gender = gender,
+                    Size = size,
+                    Color = color,
+                    Material = material
+                };
+                return category.IsValid() ? category : throw new ArgumentException("Invalid category");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred while creating the food category: " + ex.Message);
+                return null;
+            }
+        }
+    }
+    internal class Program
+    {
+       
+       
+
         static void Main(string[] args)
         {
             Admin admin = new Admin("Admin", "Admin_23");
@@ -465,7 +502,8 @@ namespace Restructured_Product_management_app
                 Category = new ClothCategory
                 {
                     Category = "Cloth",
-                    GenderSize = "M",
+                    Gender = "M",
+                    Size = "XL",
                     Color = "Blue",
                     Material = "Cotton"
                 }
@@ -551,21 +589,20 @@ namespace Restructured_Product_management_app
                             {
                                 case 1:
                                     // List all products
-                                    ListProducts(productManager.GetAllProducts());
+                                    ProductManager.ListProducts(productManager.GetAllProducts());
                                     break;
 
                                 case 2:
                                     // Filter products by category
                                     Console.Write("Enter the category to filter. \n1. Food \n2. Cloth \n3. Other: ");
                                     string category = Console.ReadLine();
-                                    ListProducts(productManager.GetProductsByCategory(new ProductCategory { Category = category }));
+                                    ProductManager.ListProducts(productManager.GetProductsByCategory(new ProductCategory { Category = category }));
                                     break;
 
                                 case 3:
                                     // Add new product
-                                    Product newProduct = CreateProduct();
+                                    Product newProduct = ProductManager.CreateProduct();
                                          productManager.AddProduct(newProduct);
-                                        //Console.WriteLine("Product added successfully!");
                                         break;                                                               
 
                                 case 4:
@@ -580,9 +617,8 @@ namespace Restructured_Product_management_app
                                     }
                                     else
                                     {
-                                        Product updatedProduct = UpdateProduct(productToUpdate);
-                                        productManager.UpdateProduct(productNumberToUpdate, updatedProduct);
-                                        Console.WriteLine("Product updated successfully!");
+                                        Product updatedProduct = ProductManager.UpdateProduct(productToUpdate);
+                                        productManager.Find_Product(productNumberToUpdate, updatedProduct);
                                     }
                                     break;
 

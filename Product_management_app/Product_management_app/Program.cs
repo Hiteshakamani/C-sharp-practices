@@ -61,18 +61,12 @@ namespace Product_management_app
             }
             return base.ToString();
         }
-
-
         public class Admin
         {
             private string Username = "Admin";
             private string Password = "Admin_23";
             private bool Logged_in = false;
             private List<Product> products = new List<Product>();
-
-
-
-
             //While start the app
             public void Start()
             {
