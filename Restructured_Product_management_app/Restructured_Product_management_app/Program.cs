@@ -469,9 +469,6 @@ namespace Restructured_Product_management_app
     }
     internal class Program
     {
-       
-       
-
         static void Main(string[] args)
         {
             Admin admin = new Admin("Admin", "Admin_23");
@@ -543,14 +540,13 @@ namespace Restructured_Product_management_app
                 {
                     Console.WriteLine("Select Choice");
                     Console.WriteLine("1. Login");
-                    Console.WriteLine("2. Close App");
+                    Console.WriteLine("2. Close App"); 
                     choice = int.Parse(Console.ReadLine());
                 }
                 catch (FormatException)
                 {
                     Console.WriteLine("Error: Please enter a valid integer choice.");
                     continue;
-
                 }
 
                 if (choice == 1)
@@ -663,14 +659,12 @@ namespace Restructured_Product_management_app
                         Console.WriteLine("Bye..!");
                         Console.ReadKey();
                         Environment.Exit(0);
-
                     }
                 }
                 else
                 {
                     Console.WriteLine("Please enter the choise 1 OR 2");
-                }
-
+                }   
             }
         }
     }
