@@ -43,3 +43,13 @@ as begin
 	
 	exec spGetemployeeWithHighestSalary 1;
 	
+
+
+create proc spGetEmployeeBySalaryRange (@minsalary money, @maxsalary money)
+as begin
+	;with cteEmployee as
+  (select id,name,salary,department_id from employee2 where salary between @maxsalary and @minsalary)
+  select id,name,salary,department_id from cteEmployee
+  end 
+
+  exec spGetEmployeeBySalaryRange 5000,10000;
