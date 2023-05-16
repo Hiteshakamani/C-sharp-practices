@@ -32,4 +32,6 @@ where department_id = @dep_id;
 return @avg_salary;
 end;
 
-select  name,get_avg_salary(2) as avg_salary from dep;
+declare @dep_id int = 2; 
+
+select  name,get_avg_salary(@dep_id) as avg_salary from dep;

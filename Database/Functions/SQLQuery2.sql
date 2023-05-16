@@ -68,4 +68,40 @@ values
 	from sales s
 	join products p on s.product_id = p.product_id;
 
-	 
+
+	create function get_total_sales_amount(
+	@start_date date,
+	@end_date date
+	)
+	returns decimal(10,2)
+	as
+	begin 
+	    declare @total_sales decimal(10,2);
+
+		begin try 
+		 select @total_sales = sum(sale_amount)
+		 from sales 
+		 where sale_date between @start_date and @end_date;
+		 if @total_sales is null
+		 begin 
+		 set @total_sales = 0 ;
+		 end;
+		 end try
+		 begin catch 
+		 declare @error nvarchar(200);
+		 set @error = 'An error while calculating the total sales amount for the date range:'
+		 + convert(nvarchar(10),@start_date,120) + 'to'+convert(nvarchar(10),@end_date,120);
+		 throw 5100,@error , 1;
+		 end catch;
+		 return @total_sales;
+	end;
+
+	declare @start_date date = '2022-02-01';
+	declare @end_date date  = '2022-12-31';
+
+	begin try 
+	select get_total_sales_amount(@start_date,@end_date) as total_sales_amount;
+	end try
+	begin catch
+	select ERROR_NUMBER() as error_number , ERROR_MESSAGE() as 	error_message;
+	end catch;
