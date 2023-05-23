@@ -22,3 +22,8 @@ begin
 
     return isnull(@total_quantity, 0);
 end;
+DECLARE @product_id int = 3;
+SELECT dbo.fn_GetTotalQuantity(@product_id) AS TotalQuantity;
+ 
+
+ --erorr......... from the requirement 

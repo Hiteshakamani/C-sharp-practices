@@ -21,7 +21,13 @@ BEGIN
     COMMIT;
 END;
 
-exec sp_DeleteProduct 8;
+exec sp_DeleteProduct 7;
+
+select * from category;
+select * from product;
+select * from food_category;
+select * from cloth_category;
+select * from AllProductsWithCategoryDetails;
 
 create proc sp_findproduct
 (
@@ -84,7 +90,6 @@ BEGIN
     DECLARE @category_id INT;
      INSERT INTO AllProductsWithCategoryDetails(c_name)
     VALUES (@category_name);
-    SET @category_id = SCOPE_IDENTITY();
 
     -- Insert into products table
     DECLARE @product_id INT;
@@ -105,11 +110,6 @@ BEGIN
     END
 END;
 
-select * from category;
-select * from product;
-select * from food_category;
-select * from cloth_category;
-select * from AllProductsWithCategoryDetails;
 
 
 --if we give the all value then it will only store the product by category vise
