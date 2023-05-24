@@ -60,18 +60,10 @@ INSERT INTO cloth_category (gender, size, color, material,product_id)
 VALUES ('Male', 'M', 'Blue', 'Cotton',1),
        ('Female', 'S', 'Red', 'Polyester',2);
       
-select *
-from category;
-
-select *
-
-from product;
-
-select *
-from food_category;
-
-select *
-from cloth_category;
+select * from category;
+select * from product;
+select * from food_category;
+select * from cloth_category;
 
 create view product_by_category as 
 select p.product_id , p.p_name ,p.price, p.category_id,c.c_name
@@ -87,6 +79,7 @@ SELECT
   p.product_id,
   p.p_name,
   p.price,
+  c.category_id,
   c.c_name,
   fc.manufacture_date,
   fc.expiry_date,
